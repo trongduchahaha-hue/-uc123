@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Phòng Khám Nha Sĩ</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: "Segoe UI", Tahoma, sans-serif;
+        }
+
+        body {
+            background: #f4f7fa;
+            color: #222;
+        }
+
+        header {
+            background: #0988c2;
+            color: #fff;
+            text-align: center;
+            padding: 40px 20px 50px;
+            border-bottom-left-radius: 30px;
+            border-bottom-right-radius: 30px;
+        }
+
+        header h1 {
+            font-size: 36px;
+            font-weight: 700;
+        }
+
+        header p {
+            margin-top: 10px;
+            font-size: 16px;
+            opacity: 0.9;
+        }
+
+        nav {
+            background: #e8f6ff;
+            margin: 20px auto;
+            padding: 12px 0;
+            border-radius: 25px;
+            max-width: 900px;
+            text-align: center;
+        }
+
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #0a78b8;
+            font-weight: 600;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .section {
+            background: #fff;
+            padding: 30px;
+            border-radius: 15px;
+            margin-bottom: 30px;
+        }
+
+        .section h2 {
+            font-size: 24px;
+            margin-bottom: 15px;
+        }
+
+        .section p {
+            line-height: 1.7;
+            color: #444;
+        }
+
+        .commitment {
+            background: #eefcff;
+            border-left: 5px solid #12a4e8;
+            padding: 30px;
+            border-radius: 15px;
+        }
+
+        .commitment h2 {
+            margin-bottom: 15px;
+        }
+
+        .commitment ul {
+            list-style: none;
+        }
+
+        .commitment li {
+            margin-bottom: 10px;
+            font-size: 16px;
+        }
+
+        .commitment li::before {
+            content: "✓";
+            color: #12a4e8;
+            font-weight: bold;
+            margin-right: 8px;
+        }
+
+        footer {
+            background: linear-gradient(90deg, #0b1225, #0f1c3f);
+            color: #fff;
+            text-align: center;
+            padding: 25px 15px;
+            margin-top: 40px;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+        }
+
+        footer p {
+            margin: 6px 0;
+            font-size: 14px;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 28px;
+            }
+
+            nav a {
+                display: inline-block;
+                margin: 8px 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Phòng Khám Nha Sĩ</h1>
+        <p>Chăm sóc răng miệng chuyên nghiệp</p>
+    </header>
+
+    <nav>
+        <a href="#">Trang chủ</a>
+        <a href="#">Giới thiệu</a>
+        <a href="#">Bác sĩ</a>
+        <a href="#">Dịch vụ</a>
+    </nav>
+
+    <div class="container">
+
+        <div class="section">
+            <h2>Giới thiệu phòng khám</h2>
+            <p>
+                Phòng khám nha sĩ cung cấp các dịch vụ chăm sóc răng miệng
+                với đội ngũ bác sĩ có chuyên môn cao và trang thiết bị hiện đại.
+            </p>
+        </div>
+
+        <div class="commitment">
+            <h2>Uy tín & cam kết</h2>
+            <ul>
+                <li>Bác sĩ có chứng chỉ hành nghề</li>
+                <li>Thiết bị hiện đại</li>
+                <li>Chi phí minh bạch</li>
+            </ul>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>© 2026 Phòng Khám Nha Sĩ</p>
+        <p>Hotline: 0900 111 222</p>
+    </footer>
+
+</body>
+</html>
